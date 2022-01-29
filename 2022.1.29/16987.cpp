@@ -1,3 +1,5 @@
+// 난이도 실버 1, 유형: 재귀, 백트래킹
+
 #include <iostream>
 #include <vector>
 using namespace std;
