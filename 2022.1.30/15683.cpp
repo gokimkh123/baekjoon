@@ -1,4 +1,4 @@
-// 난이도 : 골드 5, 유형 : 완전탐색, bfs, 시뮬레이션
+// 난이도 : 골드 5, 유형 : 완전탐색, bfs, 시뮬레이션,백트래킹
 
 #include <iostream>
 #include <vector>
@@ -78,3 +78,6 @@ int main(){
     }
     cout << ans;
 }
+
+
+
