@@ -1,4 +1,4 @@
-//난이도 : 플레5, 유형 : 문자열, 정렬, 그리디
+//난이도 : 플레5, 유형 : 그리디, 문자열, 정렬
 
 #include <bits/stdc++.h>
 #define all(v) v.begin(), v.end()
@@ -19,15 +19,12 @@ int main() {
 
     int n;
 
-    string s,Max = "";
+    string s;
 
     cin >> n;
 
     for(int i=0;i<n;i++){
         cin >> s;
-
-        if(s.size() > Max.size() || (s.size() == Max.size()) && s.compare(Max) > 0) Max = s;
-
         v.push_back(s);
     }
 
