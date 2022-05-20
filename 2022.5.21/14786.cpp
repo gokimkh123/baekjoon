@@ -28,7 +28,7 @@ int main() {
         long double val = (c - b * (long double)sin(mid)) / a;
 
         if(mid > val) en = mid;
-        else if(mid < val) st = mid + 0.00000000000000000001;
+	else if(mid < val) st = mid + 0.000000001;
     }
 
     printf("%.19Lf",mid);
